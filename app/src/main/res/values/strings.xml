@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Monthawat Yangdiaw</string>
+    <string name="password">JuJiizIsHappy</string>
+    <string name="ScanQ">กรุณาสแกน QR code ในเอกสาร</string>
+    <string name="ScanButton">Scan</string>
+    <string name="LoginQ">Please type \"JuJiiz\"</string>
+    <string name="OtherSkillI">- เคยทำโปรเจ็คที่เกี่ยวกับ Image Processing</string>
+    <string name="OtherSkillR">- เคยทำโปรเจ็คที่ใช้ RestAPI, Json, SQLite, Custom Dialog</string>
+    <string name="OtherSkillOOP">- Object Oriented Programming</string>
+    <string name="OtherSkillMVC">- Model View Controller Programming</string>
+</resources>

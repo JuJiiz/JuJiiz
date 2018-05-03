@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:padding="16dp"
+    tools:context=".QRActivity">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorPanel"
+        android:paddingTop="16dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/tvScanQ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/ScanQ"
+        android:textColor="@color/TextColor" />
+
+    <Button
+        android:id="@+id/btnScan"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_above="@+id/tvScanQ"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:backgroundTint="@color/colorButton"
+        android:text="@string/ScanButton"
+        android:textSize="20dp" />
+
+</RelativeLayout>
